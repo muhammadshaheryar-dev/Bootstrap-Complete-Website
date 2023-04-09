@@ -7,6 +7,8 @@
     <title>Services - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -25,9 +27,11 @@
             </div>
         </div>
     </nav>
+    <div data-aos="zoom-out">
     <section class="py-5">
         <div class="container py-5">
-            <div class="row mb-4 mb-lg-5">
+            <div data-aos="zoom-out-right">           
+              <div class="row mb-4 mb-lg-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <p class="fw-bold text-success mb-2">Our Services</p>
                     <h3 class="fw-bold">What we can do for you</h3>
@@ -42,6 +46,8 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <div data-aos="zoom-out-left">
             <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
                 <div class="col order-md-last mb-5"><img class="rounded img-fluid shadow" src="https://reliasoftware.com/static/9ce8aa204a21e69716018fee472b042c/the-complete-guide-to-mobile-app-development-2021.png"></div>
                 <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
@@ -51,6 +57,8 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <div data-aos="zoom-out-right"> 
             <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
                 <div class="col mb-5"><img class="rounded img-fluid shadow" src="https://smartcademy.sg/wp-content/uploads/2022/04/X-Important-Benefits-of-Digital-Marketing-For-Your-Business.jpg"></div>
                 <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
@@ -60,6 +68,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <footer class="bg-dark">
@@ -116,6 +125,9 @@
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bold-and-dark.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
